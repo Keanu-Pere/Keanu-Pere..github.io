@@ -115,10 +115,12 @@ p {
 #section-d {
   padding: 2em;
   color: #fff;
+  
 }
 
 #section-d .box:first-child {
   background: #2690d4;
+  
 }
 
 
@@ -161,7 +163,7 @@ p {
   }
 
   .box, #main-footer div {
-    grid-column: span 1;
+    grid-column: span 4;
   }
 
   #section-b ul {
@@ -172,6 +174,7 @@ p {
   #section-b li {
     width: 31%;
   }
+
 }
 
   

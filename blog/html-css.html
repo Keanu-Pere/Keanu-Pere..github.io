@@ -5,18 +5,65 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Technical Blog - CSS Concepts</title>
+  <link rel="stylesheet" href="/styles/tech blog.css">
+  <div class="bg-image">
 </head>
 <body>
-  <h3>What is the difference between Margin, Border, and Padding?</h3>
+  <!-------- Header -------->
+  <header id="showcase" class="grid">
+    <div class="bg-image"></div>
+    <div class="content-wrap">
+      <h1>What is the difference between Margin, Border, and Padding?</h1>
+      <a href="/index.html" class="btn1">Home</a>
+    </div>
+</header>
+  
+  <!--------- Main Section ---------->
+<main id="main">
+  <!-------- Section-a ----------->
+  <section id="section-a" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title">Padding</h2>
+      <div class="content-text">
   <p>
-    <ul>
+    <ul> 
       <li>Padding is how much space is within an object sides and it’s contents.</li>
-      <li>Padding sets a spacing between an attributes outer box and its parent or between its neighbor.</li> 
-      <li>Border is between the margin and padding of an object. Only counted when given an actual width otherwise, it’s zero.</li>
-      <li>Border places a border spacing fully around inside a parent or child inner attributes.</li>
+      <li>Padding sets a spacing between an attributes outer box and its parent or between its neighbor.</li>
+    </ul>
+  </p> 
+  <img src="/images/padding-example.jpg" alt="Padding">
+  
+  <!------ Section-b -------->
+  <section id="section-b" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title">Margin</h2>
+      <div class="content-text">
+  <p>
+    <ul> 
       <li>Margin sets spacing inside a parents box for an attribute as a child.</li>
       <li>Margin is how much space is around an object.</li>
-  </ul>
-  </p>
+    </ul>
+  </p> 
+  <img src="/images/margin-example.jpg" alt="Margin">
+
+  <!------ Section-c ------>
+  <section id="section-c" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title">Border</h2>
+      <div class="content-text">
+  <p>
+    <ul> 
+      <li>Border is between the margin and padding of an object. Only counted when given an actual width otherwise, it’s zero.</li>
+        <li>Border places a border spacing fully around inside a parent or child inner attributes.</li>
+    </ul>
+  </p> 
+  <img src="/images/maxresdefault.jpg" alt=""> 
+</main>
+  <!-------- Footer ------->
+<footer id="main-footer" class="grid">
+  <div>
+    <a href="#showcase" class="btn1">Return to Top</a>
+  </div>
+</footer>  
 </body>
 </html>
